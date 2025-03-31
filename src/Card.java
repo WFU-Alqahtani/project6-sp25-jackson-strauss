@@ -11,8 +11,8 @@ public class Card {
         NULL, two, three, four, five, six, seven, eight, nine, ten, jack, king, queen, ace
     }
 
-    private suites suit;
-    private ranks rank;
+    public suites suit;
+    public ranks rank;
 
     Card(){
         suit = suites.NULL;
